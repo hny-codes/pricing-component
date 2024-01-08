@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Layout */
+  --layout-m: 375px;
+  --layout-d: 1440px;
+
+  /* Colors */
+  --clr-gradient-1: hsl(236, 72%, 79%);
+  --clr-gradient-2: hsl(237, 63%, 64%);
+
+  --clr-neutral-1: hsl(240, 78%, 98%);
+  --clr-neutral-2: hsl(234, 14%, 74%);
+  --clr-neutral-3: hsl(233, 13%, 49%);
+  --clr-neutral-4: hsl(232, 13%, 33%);
+}
