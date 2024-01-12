@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         empty:
-          'bg-gradient-to-br from-[--clr-gradient-1] to-[--clr-gradient-2] text-primary-foreground uppercase border-2 hover:text-[--clr-gradient-2] hover:bg-[--clr-neutral-1] hover:from-[--clr-neutral-1] hover:to-[--clr-neutral-1] hover:border-[--clr-gradient-2]',
+          'bg-gradient-to-br from-[--clr-gradient-1] to-[--clr-gradient-2] text-primary-foreground uppercase border-0 hover:text-[--clr-gradient-2] hover:bg-[--clr-neutral-1] hover:from-[--clr-neutral-1] hover:to-[--clr-neutral-1] hover:border-[--clr-gradient-2] hover:border-2',
         filled:
           'bg-[--clr-neutral-1] text-primary-foreground uppercase border-2 text-[--clr-neutral-3] hover:text-[--clr-neutral-1] hover:bg-transparent hover:border-[--clr-neutral-1]',
       },
