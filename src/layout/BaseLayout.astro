@@ -12,7 +12,13 @@ const { pageTitle } = Astro.props;
     <meta name='generator' content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body class="bg-[--clr-neutral-1]">
+  <body class='bg-[--clr-neutral-1]'>
     <slot />
   </body>
 </html>
+
+<style>
+  body {
+    font-family: 'Montserrat Variable', sans-serif;
+  }
+</style>
