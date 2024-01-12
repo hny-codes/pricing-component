@@ -24,9 +24,9 @@ const Page = () => {
         <h1 className='text-4xl font-bold text-[--clr-neutral-4]'>
           Our Pricing
         </h1>
-        <div className='flex gap-4 text-[--clr-neutral-3] py-6'>
+        <div data-test='switch-container' className='flex gap-4 text-[--clr-neutral-3] py-6'>
           <p>Annually</p>
-          <Switch onClick={handleClick} />
+          <Switch data-test='switch' onClick={handleClick} />
           <p>Monthly</p>
         </div>
       </section>
