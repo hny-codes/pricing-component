@@ -78,11 +78,11 @@ export const PriceCard = ({
       </CardContent>
       <CardFooter className='w-full pb-8'>
         {style === 'empty' ? (
-          <Button variant='empty' size={'lg'} className='w-full'>
+          <Button variant='empty' size={'lg'} className='w-full font-bold'>
             Learn More
           </Button>
         ) : (
-          <Button variant='filled' size={'lg'} className='w-full'>
+          <Button variant='filled' size={'lg'} className='w-full font-bold'>
             Learn More
           </Button>
         )}
