@@ -19,7 +19,14 @@ const { pageTitle } = Astro.props;
       alt={''}
       width={375}
       height={658}
-      class={'absolute -right-48 -top-8 overflow-x-clip -z-50'}
+      class={'absolute -right-48 -top-8 overflow-x-clip -z-50 sm:right-0 sm:top-0'}
+    />
+    <Picture
+      src={'/images/bg-bottom.svg'}
+      alt={''}
+      width={375}
+      height={658}
+      class={'absolute overflow-x-clip hidden -z-50 sm:left-0 sm:bottom-0 sm:block'}
     />
     <slot />
   </body>
