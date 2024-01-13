@@ -20,7 +20,7 @@ const Page = () => {
 
   return (
     <main className='px-6 my-20'>
-      <section className='flex flex-col justify-center items-center pb-16'>
+      <section className='flex flex-col justify-center items-center pb-16 sm:pb-8'>
         <h1 className='text-4xl font-bold text-[--clr-neutral-4]'>
           Our Pricing
         </h1>
@@ -30,7 +30,7 @@ const Page = () => {
           <p>Monthly</p>
         </div>
       </section>
-      <div className='flex flex-col gap-8'>
+      <div className='flex flex-col gap-8 sm:flex-row sm:justify-center sm:gap-0'>
         <PriceCard
           title='Basic'
           annualPrice={199.99}

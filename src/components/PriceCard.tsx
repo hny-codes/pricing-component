@@ -34,7 +34,7 @@ export const PriceCard = ({
 }: Props) => {
   return (
     <Card
-      className={`flex flex-col items-center text-center ${
+      className={`flex flex-col items-center text-center sm:px-4 sm:py-6 sm:max-w-[400px] sm:w-full ${
         style === 'filled'
           ? 'bg-gradient-to-br from-[--clr-gradient-1] to-[--clr-gradient-2]'
           : 'bg-white'
@@ -60,7 +60,7 @@ export const PriceCard = ({
           }`}
         >
           <div className='pb-8'>
-            <strong className='text-7xl relative'>
+            <strong className='text-7xl relative '>
               <span className='text-3xl absolute -left-5 top-1/3'>$</span>
               {check === 'checked' ? annualPrice : monthlyPrice}
             </strong>
