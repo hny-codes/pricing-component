@@ -19,8 +19,8 @@ const Page = () => {
   };
 
   return (
-    <main className='px-6 my-10'>
-      <section className='flex flex-col justify-center items-center pb-8'>
+    <main className='px-6 my-20'>
+      <section className='flex flex-col justify-center items-center pb-16'>
         <h1 className='text-4xl font-bold text-[--clr-neutral-4]'>
           Our Pricing
         </h1>
