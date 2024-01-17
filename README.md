@@ -7,7 +7,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 ## Table of contents
 
 - [Overview](#overview)
-- [The challenge](#the-challenge)
+- [The Challenge](#the-challenge)
 - [Built with](#built-with)
 - [Useful resources](#useful-resources)
 
@@ -18,7 +18,7 @@ The purpose of this project is to recreate a webpage with a component that shows
 The component includes a toggle button, which displays different prices when toggled on/off.
 This project is built using [Astro](https://astro.build/).
 
-## The challenge
+## The Challenge
 
 Users should be able to:
 
